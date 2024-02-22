@@ -1,0 +1,144 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "German Space";
+}
+<partial name="~/Views/Shared/_Skills.cshtml" />
+
+
+@* 
+<section id="tabs" class="project-tab">
+    <div class="container">
+        
+                <div class="card card-inverse card-success">
+                    <div class="card-block bg-success">
+                        <div class="rotate">
+                            <i class="fa fa-user fa-3x"></i>
+                        </div>
+                        <h6 class="text-uppercase">Users</h6>
+                        <h3 class="text-uppercase">36</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+                <div class="card card-inverse card-danger">
+                    <div class="card-block bg-danger">
+                        <div class="rotate">
+                            <i class="fa fa-list fa-3x"></i>
+                        </div>
+                        <h6 class="text-uppercase">Posts</h6>
+                        <h3 class="text-uppercase">36</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+                <div class="card card-inverse card-info">
+                    <div class="card-block bg-info">
+                        <div class="rotate">
+                            <i class="fa fa-twitter fa-3x"></i>
+                        </div>
+                        <h6 class="text-uppercase">Tweets</h6>
+                        <h3 class="text-uppercase">36</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+                <div class="card card-inverse card-warning">
+                    <div class="card-block bg-warning">
+                        <div class="rotate">
+                            <i class="fa fa-share fa-3x"></i>
+                        </div>
+                        <h6 class="text-uppercase">Shares</h6>
+                        <h3 class="text-uppercase">36</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+
+    <!-- table-->
+    <div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <h5 class="card-title">Vocabulary List<span class="text-muted fw-normal ms-2">(834)</span></h5>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
+                        <div>
+                            <a href="#" data-bs-toggle="modal" data-bs-target=".add-new" class="btn btn-primary"><i class="bx bx-plus me-1"></i> Add New</a>
+                        </div>
+                        <div class="dropdown">
+                            <a class="btn btn-link text-muted py-1 font-size-16 shadow-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-horizontal-rounded"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="">
+                        <div class="table-responsive">
+                            <table class="table project-list-table table-nowrap align-middle table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="ps-4" style="width: 50px;">
+                                            <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck" /><label class="form-check-label" for="contacusercheck"></label></div>
+                                        </th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Position</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Projects</th>
+                                        <th scope="col" style="width: 200px;">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" class="ps-4">
+                                            <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck1" /><label class="form-check-label" for="contacusercheck1"></label></div>
+                                        </th>
+                                        <td>h</td>
+                                            <td><span class="bg-success text-white p-1 rounded">Full Stack Developer</span></td>
+                                        <td>SimonRyles@minible.com</td>
+                                        <td>125</td>
+                                        <td>
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                                </li>
+                                                <li class="list-inline-item dropdown">
+                                                    <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                                    <div class="dropdown-menu dropdown-menu-end">
+                                                        <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    
+                                    
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+ *@
